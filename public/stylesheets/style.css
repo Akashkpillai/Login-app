@@ -1,0 +1,59 @@
+/* backgroud style */
+.wrap {
+  height: 100vh;
+ background-color: #fefbd8;
+ background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.rmLcdGYaYtWXMH8yDYBTLQHaEK%26pid%3DApi&f=1);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+/*   login page style*/
+.login-wrap {
+  display: flex;
+
+}
+.shadow-none {
+  /* opacity: 85%; */
+  background: transparent !important;
+  box-shadow: transparent !important;
+}
+.text-primary{
+  color: black !important;
+}
+
+
+.log-detail {
+  position: relative;
+  border-radius: 20px;
+  height: 85vh;
+  background-color: white;
+}
+
+.loginform {
+  background-color: white;
+  margin-left: 130px;
+  margin-top: 70px;
+  width: fit-content;
+  opacity: .9;
+  background: transparent;
+}
+.row {
+  padding: 10px;
+}
+
+.row .btn {
+  margin-left: 28%;
+
+  
+}
+
+
+.card-title {
+  text-align: center;
+}

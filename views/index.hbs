@@ -1,0 +1,32 @@
+<div class="wrap col-12 ">
+  <div class="login-wrap col-12 d-flex justify-content-center">
+    <div class="log-detail col-6 shadow-none ">
+      <div class="loginform col-6 pt-4  mx-auto   ">
+        <div class="container">
+          <h2 class="text-center text-light mt-4 mb-4"> Log In</h2>
+
+          <form action="/login" method="post">
+            <div class="mb-3">
+              <label for="" class="form-label text-light">Username</label>
+              <input type="text" class="form-control" id="" aria-describedby="emailHelp"
+                name="name" placeholder="Enter your username"/>
+              <div id="emailHelp" class="form-text">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label text-light">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="password"/>
+            </div>
+            {{#if loginError}}
+            <p class="text-light">Invalid username or password</p>
+            {{/if}}
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn btn-primary col-6 mt-1 mb-2 ">Login</button>
+            </div>
+     
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
